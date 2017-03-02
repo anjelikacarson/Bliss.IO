@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen">
+    <link type="text/css" rel="stylesheet" href="css/jquery.fullPage.css" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:1200px)" href="css/medium.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/small.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Wire+One" rel="stylesheet">
+    <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    
+	<title>BLISS.IO</title>
+</head>
+<body>
+    <div id="fullpage">
+        
+        <!-- TOP --> 
+        <div class="section">
+        <section id="top" class="ps">
+        </section>
+        </div>
+
+        <!-- ABOUT --> 
+        <div class="section">
+        <section id="about" class="ps">
+                <h1 class="sectiontitle">About Bliss.io</h1>
+                <p class="sectionp">In more recent years, a phenomenon has flourished amongst adolescents and young adults, regarding mental illness and overall well-being of the human mind. Bliss.io is a place where you can learn more about yourself and relax- a coping sanctuary for those in times of trouble. </p>
+                <br>
+                <p class="sectionp">Ease yourself, and find Bliss.</p>
+
+                <h2 class="createtitle">MEET THE CREATORS</h2>
+                <div id="pictures">
+                    <img src="media/anjelika.png" draggable="false">
+                    <img src="media/jasmine.png" draggable="false">
+                </div>
+                <h2 id="createname">Anjelika Carson & Jasmine Phat</h2>
+        </section>
+        </div>
+
+
+        <!-- COPE --> 
+        <div class="section">
+        <section id="coping" class="ps">
+            <article id="copingp">
+                <h1 id="sectiontitle2">How do you feel?</h1>
+                
+                <div id="container">
+                 <!--ROW 1-->
+                    <div id="r1">
+                        <div class= "item">
+                            <a href="sad.html"><img class="mood" src="media/depression.png" alt="sad"></a>
+                            <p>SAD</p>
+                        </div>
+                        <div class= "item">
+                            <a href="anxious.html"><img class="mood" src="media/anxiety.png" alt="anxious"></a>
+                            <p>ANXIOUS</p>
+                        </div>
+                        <div class= "item">
+                            <a href="unfocused.html"><img class="mood" src="media/adhd.png" alt="unfocused"></a>
+                            <p>UNFOCUSED</p>
+                        </div>
+                    </div>
+                        
+                    <!--ROW 2-->
+                        <div id="r2">
+                            <div class= "item">
+                                <a href="manic.html"><img class="mood" src="media/bipolar.png" alt="manic"></a>
+                                <p>MANIC</p>
+                            </div>
+
+                            <div class= "item">
+                                <a href="angry.html"><img class="mood" src="media/anger.png" alt="angry"></a>
+                                <p>ANGRY</p>
+                            </div>
+
+                            <div class= "item">
+                                <a href="stressed.html"><img class="mood" src="media/stress.png" alt="manic"></a>
+                                <p>STRESSED</p>
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+            </article>
+        </section>
+        </div>
+
+        <!-- CONTACT --> 
+        <div class="section">
+        <section id="contact" class="ps">
+           <article id="contactarea">
+                <h1 class="sectiontitle">Contact</h1>
+
+            <form id="form" class="topBefore">
+                      <input id="name" type="text" placeholder="NAME">
+                      <input id="email" type="text" placeholder="E-MAIL">
+                      <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+              <input id="submit" type="submit" value="GO!">
+            </form>
+            </article>
+        </section>
+        </div>
+        
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Top', 'About', 'Coping', 'Contact']
+			});
+		});
+	</script>
+     
+</body>
+</html>

@@ -1,0 +1,29 @@
+.section {
+	padding-bottom: 20%;
+	text-align: center;
+}
+
+.moodheader {
+	padding-top: 60%;
+}
+
+#icon {
+	width: 85%;
+}
+
+.row {
+    width: 100%;
+    
+}
+
+.item {
+	width: 25%;
+    text-align: center;
+    padding: 2%;
+}
+
+.mood{
+	width: 100px;
+	text-align: center;
+}
+
