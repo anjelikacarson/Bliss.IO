@@ -1,14 +1,83 @@
-.section {
-	padding-bottom: 20%;
+.sectionp {
+    font-size: 1.2em;
+    color: #000; 
+    text-align: left; 
+    line-height: 22pt;
+    margin: auto;
+    width: 70%;
+    padding:1.5%;
+} 
+
+.moodtitle {
+    font-family: 'Wire One' , sans-serif;
+    font-size: 7em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 45%;
 }
 
-.moodheader {
-	padding-top: 40%;
+.moodtitle2 {
+    font-family: 'Wire One' , sans-serif;
+    font-size: 7em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 2% 0;
 }
 
-.subhead {
-	padding-bottom: 20%;
+.subsub {
+    font-family: 'Wire One' , sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0;
 }
+.subtitle {
+    font-family: 'Wire One' , sans-serif;
+    font-size:5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding-top: 2.5%;
+}
+
+.socket {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 35%;
+    margin-top: -100px;
+}
+
+#itemdesc {
+    font-size: 14px;
+}
+
+/* A B O U T */
+
+.createtitle {
+    margin: 0;
+    font-family: 'Wire One' , sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#pictures {
+    text-align: center;
+}
+
+#createname {
+    margin: 0;
+    font-family: 'Wire One' , sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 2%;
+}
+
 
 
 
