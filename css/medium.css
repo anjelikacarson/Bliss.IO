@@ -14,7 +14,7 @@
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-    padding-top: 45%;
+    padding-top: 65%;
 }
 
 .moodtitle2 {
@@ -64,10 +64,6 @@
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-}
-
-#pictures {
-    text-align: center;
 }
 
 #createname {
