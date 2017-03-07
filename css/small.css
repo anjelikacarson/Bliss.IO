@@ -6,7 +6,7 @@ section {
 
 .sectiontitle {
     font-family: 'Wire One' , sans-serif;
-    font-size: 4em;
+    font-size: 2em;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 10px;
@@ -15,7 +15,7 @@ section {
 }
 
 .sectionp {
-    font-size: 1em;
+    font-size: 0.5em;
     color: #000; 
     text-align: left; 
     line-height: 22pt;
@@ -24,7 +24,7 @@ section {
 }
 
 .moodtitle {
-    font-size: 6em;
+    font-size: 2em;
     padding-top: 50%;
 }
 
