@@ -108,7 +108,12 @@
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
     <script type="text/javascript">
-		$(document).ready(function() {
+        var minWidth = 701 // minimum width of screen
+        if ($(window).width() <= minSize) {
+        // do nothing
+        }
+        else {
+        $(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
 				navigation: true,
@@ -116,6 +121,8 @@
 				navigationTooltips: ['Top', 'About', 'Coping', 'Contact']
 			});
 		});
+        }
+		
 	</script>
      
 </body>
