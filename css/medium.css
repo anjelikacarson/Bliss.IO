@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .sectiontitle {
     font-size: 5em;
 }
@@ -45,6 +46,38 @@
     font-size: 5.5em;
 }
 
+=======
+.socket {
+    top: 33%;
+}
+
+.sectiontitle {
+    font-size: 5em;
+}
+
+.sectionp {
+    font-size: 1em;
+}
+
+/* A B O U T */
+.createtitle {
+    font-size: 3em;
+}
+
+#createname {
+    font-size: 3em;
+}
+
+.moodtitle {
+    font-size: 5.5em;
+    padding-top: 45%;
+}
+
+.moodtitle2 {
+    font-size: 5.5em;
+}
+
+>>>>>>> origin/master
 .subsub {
     font-size: 2em;
 }
@@ -53,6 +86,7 @@
     font-size: 4em;
 }
 
+<<<<<<< HEAD
 /* C O P I N G */ 
 #sectiontitle2 {
     font-size: 5em;
@@ -74,4 +108,8 @@
     float: left;
     text-align: center;
     padding: 1%;    
+=======
+#container {
+    width: 90%;
+>>>>>>> origin/master
 }
