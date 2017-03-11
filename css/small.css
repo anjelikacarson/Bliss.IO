@@ -1,29 +1,158 @@
-.section {
-	padding-bottom: 20%;
-	text-align: center;
+section {
+    width: auto;
+    height: 85vh;
+    position: relative; 
 }
 
-.moodheader {
-	padding-top: 60%;
+.sectiontitle {
+    font-family: 'Wire One' , sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    margin: 0;
+    padding-top: 0.5%;
 }
 
-#icon {
-	width: 85%;
+.sectionp {
+    font-size: 1em;
+    color: #000; 
+    text-align: left; 
+    line-height: 22pt;
+    margin: auto;
+    width: 70%;
 }
 
-.row {
+.moodtitle {
+    font-size: 4em;
+    padding-top: 95%;
+}
+
+.moodtitle2 {
+    font-size: 3em;
+}
+
+.subsub {
+    font-size: 1.5em;
+}
+.subtitle {
+    font-size: 2em;
+}
+
+.socket {
+    top: 40%;
+}
+
+a img {
+    width: 45%;
+}
+
+nav {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.6em;
     width: 100%;
-    
+    color: black;
+    text-align: center;
+    padding-top: 0.5%;
+   }
+
+nav ul {
+    height: auto;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+    font-size: 1.5em;
+    display: inline;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover, a:active {
+    opacity: 0.3;
+    transition: .5s;
+    color: #000;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* TOP */ 
+#top {
+    background: #fff url("../media/logo1.png") no-repeat center;
+}
+
+/* A B O U T */
+.createtitle {
+    font-size: 2.5em;
+}
+
+#createname {
+    font-size: 2.5em;
+}
+
+img {
+    width: 30%;
+}
+
+/* C O P I N G */
+#sectiontitle2 {
+    font-size: 3em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#container {
+    width: 95%;
+}
+
+#r1, #r2 {
+    margin: 0 2%;
+    width: 98%;
+    display: block;
+    padding: 0 2%;
 }
 
 .item {
-	width: 25%;
+    width: 45%;
+    float: both;
     text-align: center;
-    padding: 2%;
+    padding: 2%;    
 }
 
-.mood{
-	width: 100px;
-	text-align: center;
+/* CONTACT */ 
+
+#form {
+    position: relative;
+    width: 300px;
+    margin: 0;
+    padding: 10%;
+    
 }
 
+input {
+    width: 300px;
+    max-width: 300px;
+    
+} 
+
+textarea {
+    width: 300px;
+    max-width: 300px;
+}
+
+#submit {
+    width: 332px;
+    max-width: 332px;
+}

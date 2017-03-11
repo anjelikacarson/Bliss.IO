@@ -1,14 +1,77 @@
-.section {
-	padding-bottom: 20%;
+.sectiontitle {
+    font-size: 5em;
 }
 
-.moodheader {
-	padding-top: 40%;
+.sectionp {
+    font-size: 1em;
 }
 
-.subhead {
-	padding-bottom: 20%;
+.moodtitle {
+    font-size: 6em;
+    padding-top: 40%;
 }
 
+.moodtitle2 {
+    font-size: 7em;
+}
 
+.subsub {
+    font-size: 2.5em;
+}
 
+.subtitle {
+    font-size: 6em;
+}
+
+.socket {
+    top: 30%;
+}
+
+/* A B O U T */
+.createtitle {
+    font-size: 3em;
+}
+
+#createname {
+    font-size: 3em;
+}
+
+.moodtitle {
+    font-size: 4em;
+    padding-top: 45%;
+}
+
+.moodtitle2 {
+    font-size: 5.5em;
+}
+
+.subsub {
+    font-size: 2em;
+}
+
+.subtitle {
+    font-size: 4em;
+}
+
+/* C O P I N G */ 
+#sectiontitle2 {
+    font-size: 5em;
+}
+
+#container {
+    width: 100%;
+}
+
+#r1, #r2 {
+    margin: 0 2%;
+    width: 98%;
+    display: inline-grid;
+    padding: 0 2%;
+}
+
+.item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 1%;    
+}

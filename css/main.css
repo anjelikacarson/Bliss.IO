@@ -28,6 +28,7 @@ section {
     font-size: 7em;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 10px;
     margin: 0;
     padding-bottom: 0.5%;
 }
@@ -59,6 +60,7 @@ section {
     font-size: 7em;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 10px;
     margin: 0;
     padding: 2% 0;
 }
@@ -69,6 +71,7 @@ section {
     text-align: center;
     margin: 0;
 }
+
 .subtitle {
     font-family: 'Wire One' , sans-serif;
     font-size: 6em;
@@ -77,6 +80,7 @@ section {
     margin: 0;
     padding-top: 2.5%;
 }
+
 .socket {
     width: 200px;
     height: 200px;
@@ -462,12 +466,12 @@ img {
     border: 1px solid #021a40;
 }
 
-/* T O P */ 
+/* TOP */ 
 #top {
     background: #fff url("../media/logo.png") no-repeat center;
 }
 
-/* A B O U T */
+/* ABOUT */
 #about {
     background: #DBDBDB;
 }
@@ -499,6 +503,7 @@ img {
     font-size: 6em;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 10px;
     margin: 0;
 }
 #container {
@@ -519,37 +524,37 @@ img {
     padding: 1%;    
 }
 
-/* C O N T A C T */
+/* CONTACT */
 #contact {
     background: #DBDBDB;
 }
 
-/* S A D B O T T O M */ 
+/* SAD BOTTOM */ 
 #sad {
     background: #b3daff;
 }
 
-/* A N X I O U S B O T T O M */     
+/* ANXIOUS BOTTOM */     
 #anxious {
     background: #ffff99;
 }      
 
-/* U N F O C U S E D B O T T O M */
+/* UNFOCUSED BOTTOM */
 #unfocused {
     background: #b3b3ff;
 } 
 
-/* M A N I C B O T T O M */
+/* MANIC BOTTOM */
 #manic {
     background: #ffbf80;
 } 
 
-/* A N G R Y B O T T O M */
+/* ANGRY BOTTOM */
 #angry {
     background: #ff4d4d;
 }
 
-/* S T R E S S E D B O T T O M */
+/* STRESSED BOTTOM */
 #stressed {
     background: #66cc66;
 }
@@ -587,7 +592,7 @@ input::-ms-placeholder, textarea::-ms-placeholder {
 
 input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
   color: black;
-} */
+} 
 
 /* on hover placeholder */
 

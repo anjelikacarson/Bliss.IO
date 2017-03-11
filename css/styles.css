@@ -359,7 +359,7 @@ textarea:hover {
   background: #fff;
   border-radius: 5px;
   width: 30%;
-  position: relative;
+  position: inherit;
   transition: all 5s ease-in-out;
 }
 

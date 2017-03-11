@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/main.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/jquery.fullPage.css" media="screen">
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:1200px)" href="css/medium.css"/>
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/small.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:760px) and (max-width:1400px)" href="css/medium.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:320px) and (max-width:740px)" href="css/small.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Wire+One" rel="stylesheet">
     <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -262,11 +262,7 @@
             <div id="container">
                  <!--ROW 1-->
                     <div id="r1">
-                        <div class= "item">
-                            <a href="https://shrib.com/jKPJog95a7tMjkD" target="_blank"><img class="mood" src="media/notepad.png"></a>
-                            <p>Make a list of things that make you happy.</p>
-                        </div>
-
+                        
                         <div class= "item">
                             <a href="#popup1"><img class="mood" src="media/music.png" alt="music"></a>
                             <p>Listen to these.</p>
@@ -286,18 +282,34 @@
                                 </div>
                             </div>
                         </div>
-
+                        
                         <div class= "item">
-                            <a href="http://netflix.com" target="_blank"><img class="mood" src="media/tv.png" alt="tv"></a>
-                                <p>Watch some shows and movies.</p>
+                            <a href="https://www.readanybook.com/" target="_blank"><img class="mood" src="media/book.png" alt="book"></a>
+                            <p>Read some books.</p>
                         </div>
+                        
+                        <div class= "item">
+                            <a href="#popup3"><img class="mood" src="media/draw.png" alt="draw"></a>
+                            <p>Draw on yourself.</p>
+                            <div id="popup3" class="overlay">
+                                <div class="popup">
+                                    <h2>Turn yourself into art.</h2>
+                                    <a class="close" href="#">&times;</a>
+                                    <div class="content">
+                                        <p>Doodling on your skin is both a relaxing and therapeutic activity. If you seek self harm, use a red washable marker and make marks on your skin. If not, grab your markers and pens and become a canvas!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                         
                     <!--ROW 2-->
                     <div id="r2">
+                        
                         <div class= "item">
-                            <a href="https://www.readanybook.com/" target="_blank"><img class="mood" src="media/book.png" alt="book"></a>
-                            <p>Read some books.</p>
+                            <a href="http://netflix.com" target="_blank"><img class="mood" src="media/tv.png" alt="tv"></a>
+                                <p class="name">Watch some shows and movies.</p>
                         </div>
 
                         <div class= "item">
@@ -314,18 +326,10 @@
                                 </div>
                         </div>
 
+                        
                         <div class= "item">
-                            <a href="#popup3"><img class="mood" src="media/draw.png" alt="draw"></a>
-                            <p>Draw on yourself.</p>
-                            <div id="popup3" class="overlay">
-                                <div class="popup">
-                                    <h2>Turn yourself into art.</h2>
-                                    <a class="close" href="#">&times;</a>
-                                    <div class="content">
-                                        <p>Doodling on your skin is both a relaxing and therapeutic activity. If you seek self harm, use a red washable marker and make marks on your skin. If not, grab your markers and pens and become a canvas!</p>
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="https://shrib.com/jKPJog95a7tMjkD" target="_blank"><img class="mood" src="media/notepad.png"></a>
+                            <p>Make a list of things that make you happy.</p>
                         </div>
                 </div>
              </div>
@@ -340,6 +344,11 @@
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
     <script type="text/javascript">
+		var minWidth = 701 // minimum width of screen
+        if ($(window).width() <= minSize) {
+        // do nothing
+        }
+        else {
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage'],
@@ -348,6 +357,7 @@
 				navigationTooltips: ['Sadtop', 'Sad']
 			});
 		});
+        }
 	</script>
      
 </body>

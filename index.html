@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/main.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/jquery.fullPage.css" media="screen">
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:1200px)" href="css/medium.css"/>
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/small.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:760px) and (max-width:1366px)" href="css/medium.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:320px) and (max-width:736px)" href="css/small.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Wire+One" rel="stylesheet">
     <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -20,9 +20,10 @@
         </section>
         </div>
 
-        <!-- ABOUT --> 
+        <!-- ABOUT -->
         <div class="section">
         <section id="about" class="ps">
+                <a href="#secondPage"></a>
                 <h1 class="sectiontitle">About Bliss.io</h1>
                 <p class="sectionp">In more recent years, a phenomenon has flourished amongst adolescents and young adults, regarding mental illness and overall well-being of the human mind. Bliss.io is a place where you can learn more about yourself and relax- a coping sanctuary for those in times of trouble. </p>
                 <br>
@@ -41,6 +42,7 @@
         <!-- COPE --> 
         <div class="section">
         <section id="coping" class="ps">
+            <a href="#3rdPage"></a>
             <article id="copingp">
                 <h1 id="sectiontitle2">How do you feel?</h1>
                 
@@ -87,14 +89,15 @@
 
         <!-- CONTACT --> 
         <div class="section">
+        <a href="#4thPage"></a>
         <section id="contact" class="ps">
+            
            <article id="contactarea">
-                <h1 class="sectiontitle">Contact</h1>
-
+            <h1 class="sectiontitle">Contact</h1>
             <form id="form" class="topBefore">
-                      <input id="name" type="text" placeholder="NAME">
-                      <input id="email" type="text" placeholder="E-MAIL">
-                      <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+              <input id="name" type="text" placeholder="NAME">
+              <input id="email" type="text" placeholder="E-MAIL">
+              <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
               <input id="submit" type="submit" value="GO!">
             </form>
             </article>
@@ -108,7 +111,12 @@
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
     <script type="text/javascript">
-		$(document).ready(function() {
+        var minWidth = 701 // minimum width of screen
+        if ($(window).width() <= minSize) {
+        // do nothing
+        }
+        else {
+        $(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
 				navigation: true,
@@ -116,6 +124,9 @@
 				navigationTooltips: ['Top', 'About', 'Coping', 'Contact']
 			});
 		});
+            // continue script
+        }
+		
 	</script>
      
 </body>

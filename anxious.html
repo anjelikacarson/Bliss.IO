@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/main.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/jquery.fullPage.css" media="screen">
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:701px) and (max-width:1200px)" href="css/medium.css"/>
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:700px)" href="css/small.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:760px) and (max-width:1366px)" href="css/medium.css"/>
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:320px) and (max-width:736px)" href="css/small.css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Wire+One" rel="stylesheet">
     <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
@@ -297,29 +297,8 @@
                             </div>
                         </div>
                     </div>
-
-                        <div class= "item">
-                        <a href="#popup6"><img class="mood" src="media/icedive.png" alt="ice dive"></a>
-                        <p>Cool down and ice dive.</p>
-                        <div id="popup6" class="overlay">
-                            <div class="popup">
-                                <h2>Chill Out.</h2>
-                                <a class="close" href="#">&times;</a>
-                                <div class="content">
-                                    <ol>
-                                        <li>Fill a large bowl with cold water and ice cubes.</li>
-                                        <li>Submerge your face for 10 seconds.</li>
-                                        <li>If you don't prefer to submerge your face into water, splash your face with cold water, or take a cold shower.</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                
-                <!--ROW 2-->
-                    <div id="r2">
-                        <div class= "item">
+                        
+                    <div class= "item">
                     <a href="#popup7"><img class="mood" src="media/selfcare.png" alt="self care kit"></a>
                     <p>Self care kit.</p>
                         <div id="popup7" class="overlay">
@@ -365,13 +344,20 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                        <div class= "item">
-                            <a href="http://www.fastgames.com/littlewheel.html"target="_blank"><img class="mood" src="media/littlewheel.png" alt="little wheel game"></a>
-                            <p>Play the Little Wheel.</p>
                         </div>
 
+                        
+                    </div>
+                
+                <!--ROW 2-->
+                    <div id="r2">
+                        
+                         <div class= "item">
+                        <a href="http://www.fastgames.com/littlewheel.html"target="_blank"><img class="mood" src="media/littlewheel.png" alt="little wheel game"></a>
+                        <p>Play the Little Wheel.</p>
+                    </div>
+                        
+                    
                         <div class= "item">
                         <a href="#popup8"><img class="mood" src="media/alphabetgame.png" alt="alphabet game"></a>
                         <p>Play the Alphabet Game.</p>
@@ -384,7 +370,25 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        </div>
+                        
+                        <div class= "item">
+                        <a href="#popup6"><img class="mood" src="media/icedive.png" alt="ice dive"></a>
+                        <p>Cool down and ice dive.</p>
+                        <div id="popup6" class="overlay">
+                            <div class="popup">
+                                <h2>Chill Out.</h2>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <ol>
+                                        <li>Fill a large bowl with cold water and ice cubes.</li>
+                                        <li>Submerge your face for 10 seconds.</li>
+                                        <li>If you don't prefer to submerge your face into water, splash your face with cold water, or take a cold shower.</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
             </div>
 
@@ -398,12 +402,17 @@
     <script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
     <script type="text/javascript">
+        var minWidth = 701 // minimum width of screen
+        if ($(window).width() <= minSize) {
+        // do nothing
+        }
+        else {
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['firstPage', 'secondPage'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Sadtop', 'Sad']
+				navigationTooltips: ['Anxioustop', 'Anxious']
 			});
 		});
 	</script>
