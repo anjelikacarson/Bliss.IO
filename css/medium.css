@@ -99,7 +99,7 @@
 #r1, #r2 {
     margin: 0 2%;
     width: 98%;
-    display: inline-grid;
+    display: grid;
     padding: 0 2%;
 }
 
