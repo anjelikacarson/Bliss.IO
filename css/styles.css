@@ -141,7 +141,7 @@ nav ul li:hover > ul {
 
 .row {
     width: 85%;
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 
