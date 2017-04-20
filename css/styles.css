@@ -139,6 +139,13 @@ nav ul li:hover > ul {
    border:1px solid #021a40;
 }
 
+#r1, #r2 {
+    margin: 0 2%;
+    width: 98%;
+    display: block;
+    padding: 0 2%;
+}
+
 .row {
     width: 85%;
     display: inline-block;
