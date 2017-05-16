@@ -1,3 +1,6 @@
+p {
+    font-size: 2em;
+}
 section {
     width: auto;
     height: 85vh;
@@ -24,7 +27,7 @@ section {
 }
 
 .moodtitle {
-    font-size: 3em;
+    font-size: 3.5em;
     padding-top: 95%;
 }
 
@@ -36,7 +39,7 @@ section {
     font-size: 2em;
 }
 .subtitle {
-    font-size: 1em;
+    font-size: 2em;
 <<<<<<< HEAD
 }
 
