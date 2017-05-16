@@ -24,7 +24,7 @@ section {
 }
 
 .moodtitle {
-    font-size: 2em;
+    font-size: 1em;
     padding-top: 95%;
 }
 
@@ -36,12 +36,12 @@ section {
     font-size: 1em;
 }
 .subtitle {
-    font-size: 2em;
+    font-size: 1em;
 <<<<<<< HEAD
 }
 
 .socket {
-    top: 40%;
+    top: 30%;
 }
 
 a img {
