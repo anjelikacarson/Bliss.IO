@@ -732,7 +732,7 @@ textarea:hover {
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 50%;
+  width: 40%;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -762,7 +762,7 @@ textarea:hover {
   font-size: 1.3em;
 }
 .selfcare li {
-  font-size: .95em;
+  font-size: .8em;
 }
 .popup .close {
   position: absolute;

@@ -241,14 +241,6 @@ img {
     padding: 2%;    
 }
 
-/* CONTACT */ 
-#form {
-  position: relative;
-  width: 500px;
-  margin: 25px auto 50px auto;
->>>>>>> origin/master
-}
-
 .popup h2 {
   margin-top: 0;
   color: #333;
@@ -263,3 +255,6 @@ img {
 .popup h3 {
   font-size: 16px;
 }
+>>>>>>> origin/master
+}
+
