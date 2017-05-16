@@ -248,3 +248,10 @@ img {
   margin: 25px auto 50px auto;
 >>>>>>> origin/master
 }
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+    font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
