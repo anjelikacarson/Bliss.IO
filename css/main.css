@@ -744,7 +744,7 @@ textarea:hover {
 }
 .popup h3 {
   text-align: left;
-  font-size: 0.5em;
+  font-size: 1em;
   color: #333;
   font-family: 'Montserrat', sans-serif;
 }
@@ -756,13 +756,13 @@ textarea:hover {
 
 .popup ol {
   text-align: left;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .popup p {
   font-size: 1.3em;
 }
 .selfcare li {
-  font-size: 0.5px;
+  font-size: .95em;
 }
 .popup .close {
   position: absolute;

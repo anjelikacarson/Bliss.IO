@@ -255,3 +255,11 @@ img {
     font-size: 18px;
   font-family: 'Montserrat', sans-serif;
 }
+
+.selfcare li {
+  font-size: 14px;
+}
+
+.popup h3 {
+  font-size: 16em;
+}
