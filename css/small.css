@@ -1,5 +1,5 @@
 p {
-    font-size: 2em;
+    font-size: 0.5em;
 }
 section {
     width: auto;
@@ -28,7 +28,7 @@ section {
 
 .moodtitle {
     font-size: 3.5em;
-    padding-top: 95%;
+    padding-top: 85%;
 }
 
 .moodtitle2 {
@@ -44,7 +44,7 @@ section {
 }
 
 .socket {
-    top: 30%;
+    top: 20%;
 }
 
 a img {
