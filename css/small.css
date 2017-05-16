@@ -3,7 +3,7 @@ p {
 }
 section {
     width: auto;
-    height: 85vh;
+    height: 90vh;
     position: relative; 
 }
 
@@ -44,7 +44,7 @@ section {
 }
 
 .socket {
-    top: 20%;
+    top: 23%;
 }
 
 a img {
@@ -67,7 +67,7 @@ nav {
     display: block;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 0.5em;
+    font-size: 12pt;
     width: 100%;
     color: black;
     text-align: center;
