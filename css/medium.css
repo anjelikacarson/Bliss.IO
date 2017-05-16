@@ -9,10 +9,11 @@
 
 .moodtitle {
     font-size: 6em;
-    padding-top: 40%;
+    padding-top: 75%;
 }
 
 .moodtitle2 {
+    padding-top: 10%;
     font-size: 7em;
 }
 
@@ -25,11 +26,12 @@
 }
 
 .socket {
-    top: 30%;
+    top: 40%;
 }
 
 /* A B O U T */
 .createtitle {
+    padding-top: 5%;
     font-size: 3em;
 }
 
@@ -52,13 +54,18 @@
 }
 
 .sectiontitle {
+    padding-top: 3%;
     font-size: 5em;
 }
 
 .sectionp {
+    padding-top: 3%;
     font-size: 1em;
 }
 
+#sectiontitle2 {
+    padding-top: 5%;
+}
 /* A B O U T */
 .createtitle {
     font-size: 3em;
@@ -74,6 +81,7 @@
 }
 
 .moodtitle2 {
+    padding-top: 10%;
     font-size: 5.5em;
 }
 
@@ -93,6 +101,7 @@
 }
 
 #container {
+    padding-top: 5%;
     width: 100%;
 }
 
